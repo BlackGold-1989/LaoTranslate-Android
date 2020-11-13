@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:id="@+id/llt_croped_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:onClick="onCLickBack">
+
+                <ImageView
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_arrow_left_white" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/text.white.24"
+                    android:text="@string/string_title"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="12dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/img_croped_image"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_app_icon"
+                android:adjustViewBounds="true" />
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.6"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="start">
+
+                    <EditText
+                        android:id="@+id/edt_croped_text"
+                        style="@style/text.black.16"
+                        android:background="@null"
+                        android:textAlignment="textStart"/>
+
+                </LinearLayout>
+
+            </ScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginBottom="16dp"
+                android:gravity="center_vertical">
+
+                <LinearLayout
+                    android:id="@+id/llt_croped_share"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginStart="18dp"
+                    android:elevation="3dp"
+                    android:background="@drawable/btn_ok_selector"
+                    android:gravity="center"
+                    android:onClick="onClickShare">
+
+                    <TextView
+                        style="@style/text.white.16"
+                        android:text="@string/string_share" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_croped_ok"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginEnd="18dp"
+                    android:elevation="3dp"
+                    android:background="@drawable/btn_ok_selector"
+                    android:gravity="center"
+                    android:onClick="onClickOK">
+
+                    <TextView
+                        style="@style/text.white.16"
+                        android:text="Ok" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/llt_croped_save"
+                    android:layout_width="0dp"
+                    android:layout_height="34dp"
+                    android:layout_weight="1"
+                    android:layout_marginTop="4dp"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginEnd="18dp"
+                    android:elevation="3dp"
+                    android:background="@drawable/btn_ok_selector"
+                    android:gravity="center"
+                    android:onClick="onCLickSave">
+
+                    <TextView
+                        style="@style/text.white.16"
+                        android:text="@string/string_save" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

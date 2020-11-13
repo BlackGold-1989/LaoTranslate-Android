@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "1072947193325",
+    "firebase_url": "https://dwb-router.firebaseio.com",
+    "project_id": "dwb-router",
+    "storage_bucket": "dwb-router.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072947193325:android:d73b98ee92ee1fb27b33e4",
+        "android_client_info": {
+          "package_name": "com.laodev.dwbrouter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072947193325-maimmcqj3pqvjcstgpv9tmqnr55muisf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjcfjZQ0t7yjFeSXVTcHX1ckx3RDiPunA"
+        },
+        {
+          "current_key": "AIzaSyCM37VHwYGyH4O8JKvXpeu2EytbzvxN5rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072947193325-maimmcqj3pqvjcstgpv9tmqnr55muisf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072947193325-99knrd9r24uvv44c17fd1u3p5q9u4lmr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.laodev.dwbrouter"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072947193325:android:5758066149b1662c7b33e4",
+        "android_client_info": {
+          "package_name": "com.laodev.translate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072947193325-u73rrgojdrlsd3qrc740rcmtvhqs1a58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.laodev.translate",
+            "certificate_hash": "25c80d16234e522f7a992414a7706b4e9363946f"
+          }
+        },
+        {
+          "client_id": "1072947193325-maimmcqj3pqvjcstgpv9tmqnr55muisf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjcfjZQ0t7yjFeSXVTcHX1ckx3RDiPunA"
+        },
+        {
+          "current_key": "AIzaSyCM37VHwYGyH4O8JKvXpeu2EytbzvxN5rU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072947193325-maimmcqj3pqvjcstgpv9tmqnr55muisf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1072947193325-99knrd9r24uvv44c17fd1u3p5q9u4lmr.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.laodev.dwbrouter"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">TxMeLao </string>
+
+    <string name="string_message_exit">Do you want to exit the app?</string>
+    <string name="string_message_voice_record">Do you want to enable Google Voice record?</string>
+    <string name="string_message_yes">Yes</string>
+    <string name="string_message_no">No</string>
+
+    <string name="string_title">TxMeLao</string>
+    <string name="string_type_text">type text here.</string>
+
+    <string name="string_language_chinese">Chinese</string>
+    <string name="string_language_lao">Lao</string>
+
+    <string name="dig_privacy_policy">User Privacy</string>
+    <string name="button_select">Select</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="dialog_select_language_title">Select Language</string>
+    <string name="language_lao">Lao</string>
+    <string name="language_english">English</string>
+    <string name="language_chinese">Chinese</string>
+    <string name="language_korean">Korean</string>
+    <string name="string_start_recording">Start Recording</string>
+    <string name="string_stop_recording">Stop Recording</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="toast_image_load_failed">Image Load failed.</string>
+    <string name="string_title_settings">Settings</string>
+    <string name="string_title_comment">Comment</string>
+    <string name="error_retry">You have no internet access, please check your internet connection!</string>
+    <string name="alert_network">Please connect to Internet</string>
+    <string name="toast_something_went_wrong_net">No network access, please check the internet connection.</string>
+    <string name="toast_open_network">No network access, please open internet connection.</string>
+    <string name="string_share">Share</string>
+    <string name="string_save">Save</string>
+    <string name="string_aboutus">About US</string>
+    <string name="string_setting_sound">Change Sound</string>
+    <string name="string_app_name">App Name</string>
+    <string name="string_version">Version</string>
+    <string name="string_review">Review</string>
+    <string name="string_privacy">Privacy &#38; policy</string>
+    <string name="string_copyright">Copyright</string>
+    <string name="string_learn_more">LEARN MORE</string>
+    <string name="string_comment">Comment</string>
+    <string name="string_advertise">Advertisement</string>
+    <string name="string_change_sounf">Change Sound</string>
+    <string name="select_sound">Please select sound</string>
+    <string name="dlg_sound_vientiane">Vientiane</string>
+    <string name="dlg_sound_louangprabang">Louangprabang</string>
+    <string name="dlg_sound_pakse">Pakse</string>
+    <string name="dlg_sound_phutai">PhuTai</string>
+    <string name="string_offline">Your network is offline.</string>
+    <string name="string_online">Online</string>
+
+</resources>

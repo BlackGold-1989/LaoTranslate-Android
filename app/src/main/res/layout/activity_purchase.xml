@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_marginTop="126dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_app_icon" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/text.black.16"
+                android:layout_marginStart="38dp"
+                android:layout_marginEnd="38dp"
+                android:textAlignment="center"
+                android:text="Your account has been expired, Please contact us. Thank you!" />
+
+            <LinearLayout
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:orientation="vertical"
+                android:gravity="center_vertical">
+
+                <TextView
+                    style="@style/text.black.14"
+                    android:layout_marginStart="6dp"
+                    android:text="Your device ID:"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:padding="6dp"
+                    android:background="@drawable/rnd_blue_6_outline">
+
+                    <TextView
+                        android:id="@+id/txt_device_id"
+                        style="@style/text.black.14"
+                        android:layout_marginStart="6dp"
+                        android:text="18d8d2f2c804ad90"/>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="2dp"
+                        android:layout_weight="1" />
+
+                    <LinearLayout
+                        android:layout_width="48dp"
+                        android:layout_height="26dp"
+                        android:paddingStart="6dp"
+                        android:paddingEnd="2dp"
+                        android:layout_marginStart="12dp"
+                        android:background="@drawable/rnd_blue_6_gradient"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/txt_hide"
+                            style="@style/text.white.14"
+                            android:layout_marginTop="-1dp"
+                            android:layout_marginEnd="3dp"
+                            android:text="Hide" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llt_purchase_contact"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:elevation="3dp"
+            android:background="@drawable/blue_8"
+            android:gravity="center">
+
+            <TextView
+                style="@style/text.white.18"
+                android:text="Contant US" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llt_purchase_request"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginEnd="36dp"
+            android:elevation="3dp"
+            android:background="@drawable/blue_8"
+            android:gravity="center">
+
+            <TextView
+                style="@style/text.white.18"
+                android:text="Request" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+package com.laodev.translate.classes.gcp;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class VoiceMessage {
+
+    private Input mInput;
+    private GCPVoice mGCPVoice;
+    private AudioConfig mAudioConfig;
+
+    private List<VoiceParameter> mVoiceParameters;
+
+    private VoiceMessage() {
+        mVoiceParameters = new ArrayList<>();
+    }
+
+    public static class Builder {
+
+        private VoiceMessage mVoiceMessage;
+
+        public Builder() {
+            mVoiceMessage = new VoiceMessage();
+        }
+
+        public Builder addParameter(VoiceParameter voiceParameter){
+            mVoiceMessage.mVoiceParameters.add(voiceParameter);
+            return this;
+        }
+
+        @Deprecated
+        public Builder add(Input input) {
+            mVoiceMessage.mVoiceParameters.add(input);
+            return this;
+        }
+
+        @Deprecated
+        public Builder add(GCPVoice GCPVoice) {
+            mVoiceMessage.mVoiceParameters.add(GCPVoice);
+            return this;
+        }
+
+        @Deprecated
+        public Builder add(AudioConfig audioConfig) {
+            mVoiceMessage.mVoiceParameters.add(audioConfig);
+            return this;
+        }
+
+        public VoiceMessage build() {
+            return mVoiceMessage;
+        }
+    }
+
+    @Override
+    public String toString() {
+        if (mVoiceParameters.size() != 0) {
+            JSONObject jsonObject = new JSONObject();
+            try {
+                for (VoiceParameter v : mVoiceParameters) {
+                    jsonObject.put(v.getJSONHeader(), v.toJSONObject());
+                }
+                return jsonObject.toString();
+            } catch (JSONException e) {
+                e.printStackTrace();
+            }
+        }
+
+        return "";
+    }
+}

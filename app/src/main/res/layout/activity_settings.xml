@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:gravity="center_vertical"
+            android:background="@color/colorPrimary"
+            android:elevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    style="@style/text.white.24"
+                    android:text="@string/string_title_settings"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginStart="8dp">
+
+                <ImageView
+                    android:id="@+id/img_settings_back"
+                    android:layout_width="36dp"
+                    android:layout_height="36dp"
+                    android:src="@drawable/ic_arrow_left_white" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_app_name" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_settings_appname"
+                    style="@style/text.grey.17" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_version" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <LinearLayout
+                    android:id="@+id/llt_settings_update"
+                    android:layout_width="72dp"
+                    android:layout_height="28dp"
+                    android:background="@drawable/rnd_grey_6_gradient"
+                    android:gravity="center"
+                    android:elevation="3dp">
+
+                    <TextView
+                        style="@style/text.black.14"
+                        android:text="Update" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txt_settings_db_version"
+                    android:layout_marginStart="6dp"
+                    style="@style/text.grey.16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                android:id="@+id/llt_setting_admob"
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_advertise" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <Switch
+                    android:id="@+id/switch_advertise"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:theme="@style/SwitchTheme"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                android:id="@+id/llt_setting_review"
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_review" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    style="@style/text.black.18"
+                    android:text="5" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@drawable/ic_star_yello" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_copyright" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_settings_copy_right"
+                    style="@style/text.grey.16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                android:id="@+id/llt_settings_comment"
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_comment" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    app:tint="@color/colorTextGrey"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                android:id="@+id/llt_change_sound"
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_setting_sound" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_settings_sound"
+                    android:text="Vientiane"
+                    style="@style/text.grey.16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                android:id="@+id/llt_settings_privacy"
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    android:id="@+id/txt_settings_policy"
+                    style="@style/text.black.16"
+                    android:text="@string/string_privacy" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <ImageView
+                    android:layout_width="28dp"
+                    android:layout_height="28dp"
+                    app:tint="@color/colorTextGrey"
+                    android:src="@drawable/ic_arrow_right" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+            <LinearLayout
+                style="@style/llt_setting_cell">
+
+                <TextView
+                    style="@style/text.black.16"
+                    android:text="@string/string_aboutus" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1" />
+
+                <TextView
+                    android:id="@+id/txt_settings_contact"
+                    android:text="+856"
+                    style="@style/text.grey.16" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/llt_line" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

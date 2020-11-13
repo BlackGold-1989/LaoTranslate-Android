@@ -1,0 +1,371 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionSheetStyle">@style/ActionSheetStyleiOS7</item>
+    </style>
+
+    <style name="ActionSheetStyleiOS7">
+        <item name="actionSheetBackground">@android:color/transparent</item>
+        <item name="cancelButtonBackground">@drawable/slt_as_ios7_cancel_bt</item>
+        <item name="otherButtonTopBackground">@drawable/slt_as_ios7_other_bt_top</item>
+        <item name="otherButtonMiddleBackground">@drawable/slt_as_ios7_other_bt_middle</item>
+        <item name="otherButtonBottomBackground">@drawable/slt_as_ios7_other_bt_bottom</item>
+        <item name="otherButtonSingleBackground">@drawable/slt_as_ios7_other_bt_single</item>
+        <item name="cancelButtonTextColor">#1E82FF</item>
+        <item name="otherButtonTextColor">#1E82FF</item>
+        <item name="actionSheetPadding">10dp</item>
+        <item name="otherButtonSpacing">2dp</item>
+        <item name="cancelButtonMarginTop">10dp</item>
+        <item name="actionSheetTextSize">12sp</item>
+    </style>
+
+    <style name="mb_back">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">36dp</item>
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SwitchTheme" parent="Theme.AppCompat.Light">
+        <item name="android:colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="text.black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="text.black.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text.black.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text.black.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text.black.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text.black.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text.black.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="text.black.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text.black.28">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="text.blue">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="text.blue.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text.blue.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text.blue.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text.blue.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text.blue.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text.blue.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="text.blue.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text.blue.28">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="text.grey">
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="text.grey.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text.grey.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text.grey.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text.grey.17">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="text.grey.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text.grey.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text.grey.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="text.grey.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text.grey.28">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="text.grey.light">
+        <item name="android:textColor">@color/colorTextGreyLight</item>
+    </style>
+
+    <style name="text.grey.light.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text.grey.light.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text.grey.light.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text.grey.light.17">
+        <item name="android:textSize">17dp</item>
+    </style>
+
+    <style name="text.grey.light.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text.grey.light.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text.grey.light.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="text.grey.light.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text.grey.light.28">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="text.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="text.white.12">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="text.white.14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text.white.16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text.white.18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text.white.20">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="text.white.22">
+        <item name="android:textSize">22dp</item>
+    </style>
+
+    <style name="text.white.24">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+    <style name="text.white.28">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="edit">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="edit.black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="edit.black.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="edit.black.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="edit.black.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="edit.black.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="edit.black.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="edit.black.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="edit.black.24">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="edit.black.26">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="edit.black.28">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="edit.grey">
+        <item name="android:textColor">@color/colorTextGrey</item>
+    </style>
+
+    <style name="edit.grey.12">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="edit.grey.14">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="edit.grey.16">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="edit.grey.18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="edit.grey.20">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="edit.grey.22">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="edit.grey.24">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="edit.grey.26">
+        <item name="android:textSize">26sp</item>
+    </style>
+
+    <style name="edit.grey.28">
+        <item name="android:textSize">28sp</item>
+    </style>
+
+    <style name="img_in_edt">
+        <item name="android:layout_width">26dp</item>
+        <item name="android:layout_height">26dp</item>
+    </style>
+
+    <style name="lbl_content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="lbl_content.white">
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+
+    <style name="lbl_content.black">
+        <item name="android:textColor">@color/colorBlack</item>
+    </style>
+
+    <style name="lbl_content.black.14">
+        <item name="android:text">14sp</item>
+    </style>
+
+    <style name="lbl_content.green">
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="lbl_content.blue">
+        <item name="android:textColor">@android:color/holo_blue_light</item>
+    </style>
+
+    <style name="lbl_content.blue.14">
+        <item name="android:text">14sp</item>
+    </style>
+
+    <style name="lbl_dialog_bottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">45dp</item>
+    </style>
+
+    <style name="llt_setting_cell">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+
+    <style name="llt_line">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/colorGreyDestination</item>
+    </style>
+
+</resources>
