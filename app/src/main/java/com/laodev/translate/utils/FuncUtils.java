@@ -457,7 +457,7 @@ public class FuncUtils {
 
         String app_info = SharedPrefManager.getJSONObjectAppInfo();
         if(app_info.equals("")){
-            app_info = "{\"id\":\"1\",\"version\":\"1.0\",\"about_us\":\"Kigabyte Solutions Laos\",\"copy_right\":\"Kigabyte CopyRight@2020\",\"android\":\"AIzaSyDVUfcOvl1wAkyahXAQWnnn_1QiWeQ2Mo4\",\"ios\":\"AIzaSyBbdmJ-9X_VnMVFWGlb8M7KrBCcr8Rhan0\",\"regdate\":\"2020-06-15 06:44:06\",\"other\":\"Translate Me Lao \"}";
+            app_info = "{\"id\":\"1\",\"version\":\"1.0\",\"about_us\":\"Kigabyte Solutions Laos\",\"copy_right\":\"Kigabyte CopyRight@2020\",\"android\":\"Your_KEY\",\"ios\":\"Your_KEY\",\"regdate\":\"2020-06-15 06:44:06\",\"other\":\"Translate Me Lao \"}";
         }
 
         try {
